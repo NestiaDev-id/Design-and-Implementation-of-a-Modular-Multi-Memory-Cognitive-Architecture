@@ -1,7 +1,6 @@
-
 export interface Message {
   id: string;
-  role: 'user' | 'model';
+  role: "user" | "model";
   content: string;
   timestamp: Date;
   isStreaming?: boolean;
@@ -14,4 +13,4 @@ export interface ChatSession {
   updatedAt: Date;
 }
 
-export type TimeGroup = 'Today' | 'Yesterday' | 'Last 7 Days' | 'Older';
+export type TimeGroup = "Today" | "Yesterday" | "Last 7 Days" | "Older";
