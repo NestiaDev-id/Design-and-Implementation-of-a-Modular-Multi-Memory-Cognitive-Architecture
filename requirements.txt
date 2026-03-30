@@ -1,0 +1,19 @@
+# Cognitive Memory Agent - Dependencies
+
+# Core LLM
+transformers>=4.37.0
+torch>=2.0.0
+
+# Vector database (optional, will fallback to JSON)
+chromadb>=0.4.0
+
+# Embeddings for semantic search (optional)
+sentence-transformers>=2.2.0
+
+# Utilities
+numpy>=1.24.0
+
+# API Server
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.5.0
